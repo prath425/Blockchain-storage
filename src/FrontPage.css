@@ -1,0 +1,94 @@
+/* Taskbar Styles */
+.taskbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.medblock-logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-btn {
+    color: white;
+    text-transform: none;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn, .register-btn {
+    border-color: white;
+}
+
+/* Full-Viewport Image Styles */
+.full-viewport-image {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.full-viewport-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    padding: 20px;
+}
+
+.heading {
+    margin-bottom: 16px;
+}
+
+.video-heading {
+    margin-top: 20px;
+}
+
+.info-heading {
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: lightblue; /* Footer background color */
+    color: white;
+    padding: 20px 10px;
+}
+
+.footer-section {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row; /* Align buttons vertically */
+}
+
+.footer-btn {
+    color: white; /* Button text color */
+    text-transform: none;
+    margin-bottom: 10px; /* Spacing between buttons */
+}
