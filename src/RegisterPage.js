@@ -143,7 +143,7 @@ function RegisterPage() {
               </Grid>
               <Grid item xs={12}>
                 <TextField
-                  label="Name"
+                  label="Names"
                   variant="outlined"
                   fullWidth
                   required
